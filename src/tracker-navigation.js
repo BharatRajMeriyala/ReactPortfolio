@@ -21,7 +21,6 @@ import VacationTracker from "./components/vacation-tracker";
 
 import {NavLink, Route, Switch} from "react-router-dom";
 
-
 class Navigation extends Component {
 
     constructor(props) {
@@ -64,7 +63,7 @@ class Navigation extends Component {
                                         </NavLink>
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <NavLink className="nav-link" to="/nonams" >
+                                        <NavLink className="nav-link" to="/nonams">
                                             Non AMS
                                         </NavLink>
                                     </DropdownItem>
@@ -81,7 +80,7 @@ class Navigation extends Component {
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to="/financials" >
+                                <NavLink className="nav-link" to="/financials">
                                     Financials
                                 </NavLink>
                             </NavItem>
